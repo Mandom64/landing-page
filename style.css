@@ -1,0 +1,58 @@
+/* Import font */
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/roboto/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 0px 200px;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .content .left {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links { 
+    display: flex;
+    gap: 8px;
+}
+
+header .logo .links {
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style: none;
+}
+
+header .content .left .title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
